@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Textile</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main-division">
+
+        <header >
+            <nav class="navigation-elements">
+                <img src="./ASSETS/IMAGES/logo1.png" alt="logo for surya textile">
+                <ul>
+                    <a href="" class=""><li>Home</li></a>
+                    <a onClick="document.getElementById('product').scrollIntoView();"><li>About Us</li></a>
+                    <a href="./services.html" class=""><li>Services</li></a>
+                    <a href="" class=""><li>Shop</li></a>
+                    <a onClick="document.getElementById('contact').scrollIntoView();" class=""><li>Contacts</li></a>
+                </ul>
+            </nav>  
+        </header>
+
+     
+
+            <div class="title">
+                <p>The Largest Retailers of Readymades<br>   in Marakkanam and Tindivanam</p>
+                <a href="mailto:jayasuryar849@gmail.com">Contact us</a>
+            </div>
+    </div>
+            <p class="our-product" id="product">Our Products</p>
+
+    <div class="my-products" >
+        <div class="first product">
+            <p>All Mens Wears Readymades</p>
+            <img src="./ASSETS/IMAGES/menswear.jpg" class="photo">
+        </div>
+        <div class="second product">
+            <p>Tops and Sarees</p>
+            <img src="./ASSETS/IMAGES/womenswear.jpg" class="photo">
+        </div>
+        <div class="third product">
+            <p>All Trending Dresses For Kids</p>
+            <img src="./ASSETS/IMAGES/kidswear.jpg" class="photo">
+        </div>
+
+    </div>
+
+    <section class="contact" id="contact">
+        <div>
+            <h3 class="section-title">Contact me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input class="btn-primary" type="button" value="Submit" onclick=showAlert()>
+            </form>
+        </div>
+    </section>
+    <footer>Copyright © 2024 . All rights reserved</footer>
+</body>
+<script>
+    function showAlert() {
+      alert ("Your request has been submitted");
+    }
+    </script>
+
+</html>
